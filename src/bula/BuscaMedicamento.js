@@ -95,9 +95,9 @@ class BuscaMedicamento extends Component{
 
             let bulaCompleta = '';
             bulaCompleta = response.data;
-           // console.log(bulaCompleta);c
+            //console.log(bulaCompleta);c
             bulaCompleta = utf8.encode(bulaCompleta);
-          //  console.log(bulaCompleta);
+            //console.log(bulaCompleta);
             this.setState({
                 bula: base64.encode(bulaCompleta)
             });
