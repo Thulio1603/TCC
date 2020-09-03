@@ -101,7 +101,7 @@ class BuscaMedicamento extends Component{
             this.setState({
                 bula: base64.encode(bulaCompleta)
             });
-
+            console.log(this.state.bula)
             console.log("fim")
 
 
