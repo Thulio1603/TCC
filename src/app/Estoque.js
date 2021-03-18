@@ -19,7 +19,7 @@ export default function Estoque(){
         <View style={styles.container}>
             <Header />
             <Text>
-                SEUS MEDICAMENTOS
+                Cadastre seus medicamentos
             </Text>
         </View>
     );

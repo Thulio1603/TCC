@@ -2,7 +2,6 @@ import React, { useState, useContext, Component } from 'react';
 import { StyleSheet, Text, View, TextInput, TouchableOpacity, Image } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
 import { AuthContext } from '../contexts/auth';
-import Medicamento from '../bula/BuscaMedicamento';
 
 //console.disableYellowBox=true;
 
@@ -23,7 +22,7 @@ export default function Login() {
             source={require('../../assets/atomo.png')} 
             style={styles.img} 
             />
-            <Medicamento />
+
             <TextInput 
             style={styles.input} 
             underlineColorAndroid="transparent"
@@ -66,7 +65,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: '#35aafc',
-    marginTop: 150,
   },
   img: {
     width: 150,

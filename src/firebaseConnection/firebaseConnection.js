@@ -1,6 +1,7 @@
 import firebase from 'firebase/app';
 import 'firebase/database';
 import 'firebase/auth';
+import 'firebase/firestore';
 
 let firebaseConfig = {
     apiKey: "AIzaSyByuYlCeTkdswtSsOi8InI5LfF_w9BKgZQ",
@@ -11,7 +12,6 @@ let firebaseConfig = {
     messagingSenderId: "386017494942",
     appId: "1:386017494942:web:0e08a4cb6370732da6b88f",
     measurementId: "G-QD9LM731ZP"
-
 };
 
 if(!firebase.apps.length){

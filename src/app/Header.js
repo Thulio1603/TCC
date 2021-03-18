@@ -22,7 +22,7 @@ export default function Header(){
             </View>
             <View style={styles.viewTxt}>
                 <Text style={styles.nomeApp}>Bula Fácil</Text>
-                <Text style={styles.nomeUser}> Bem Vindo { user && user.nome } </Text>
+                <Text style={styles.nomeUser}> Bem Vindo { user && user.uid } </Text>
             </View>
         </View>
     );
